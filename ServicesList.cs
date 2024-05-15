@@ -10,24 +10,29 @@ using System.Windows.Forms;
 
 namespace DAIS
 {
-    public partial class Services : Form
+    public partial class ServicesList : UserControl
     {
-        public Services()
+        public ServicesList()
         {
             InitializeComponent();
         }
 
-        private void Services_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            System.Windows.Forms.Application.Exit();
-        }
-
-        private void Services_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void servicesList1_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
         {
 
         }
