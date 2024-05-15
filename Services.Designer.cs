@@ -29,72 +29,67 @@ namespace DAIS
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.staffBtn = new System.Windows.Forms.PictureBox();
+            this.ptntsBtn = new System.Windows.Forms.PictureBox();
+            this.clndrBtn = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.doctorPic = new System.Windows.Forms.PictureBox();
+            this.dshbrdLbl = new System.Windows.Forms.Label();
+            this.btnnewappointment = new System.Windows.Forms.Button();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.staffBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptntsBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clndrBtn)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).BeginInit();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // label5
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 102F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 103F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 148F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(140, 920);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label5.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(718, 17);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(276, 60);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Pricing Range";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // label4
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Inter Medium", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(854, 28);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 42);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "+ Add Service";
-            this.button1.UseVisualStyleBackColor = false;
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label4.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(147, 17);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(266, 60);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Service ID";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // label3
             // 
-            this.label1.BackColor = System.Drawing.Color.Silver;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-4, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(1541, 97);
-            this.label1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label2.Font = new System.Drawing.Font("Metrophobic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(186, 25);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(258, 45);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Services Offered";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(421, 17);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(288, 60);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Service Name";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel2
             // 
@@ -119,74 +114,164 @@ namespace DAIS
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1000, 478);
             this.tableLayoutPanel2.TabIndex = 4;
             // 
-            // label3
+            // tableLayoutPanel1
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(421, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(288, 60);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Service Name";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(245)))), ((int)(((byte)(238)))));
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.staffBtn, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.ptntsBtn, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.clndrBtn, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 97);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 151F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 151F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 151F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 171F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(162, 823);
+            this.tableLayoutPanel1.TabIndex = 74;
             // 
-            // label4
+            // staffBtn
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(147, 17);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(266, 60);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Service ID";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.staffBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.staffBtn.Image = global::DAIS.Properties.Resources.staffs;
+            this.staffBtn.Location = new System.Drawing.Point(48, 541);
+            this.staffBtn.Name = "staffBtn";
+            this.staffBtn.Size = new System.Drawing.Size(66, 70);
+            this.staffBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.staffBtn.TabIndex = 2;
+            this.staffBtn.TabStop = false;
             // 
-            // label5
+            // ptntsBtn
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Font = new System.Drawing.Font("Inter", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(718, 17);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(276, 60);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Pricing Range";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ptntsBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ptntsBtn.Image = global::DAIS.Properties.Resources.patients;
+            this.ptntsBtn.Location = new System.Drawing.Point(48, 388);
+            this.ptntsBtn.Name = "ptntsBtn";
+            this.ptntsBtn.Size = new System.Drawing.Size(66, 74);
+            this.ptntsBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptntsBtn.TabIndex = 0;
+            this.ptntsBtn.TabStop = false;
+            // 
+            // clndrBtn
+            // 
+            this.clndrBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.clndrBtn.Image = global::DAIS.Properties.Resources.calendar;
+            this.clndrBtn.Location = new System.Drawing.Point(48, 245);
+            this.clndrBtn.Name = "clndrBtn";
+            this.clndrBtn.Size = new System.Drawing.Size(66, 59);
+            this.clndrBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.clndrBtn.TabIndex = 1;
+            this.clndrBtn.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Controls.Add(this.doctorPic);
+            this.panel2.Controls.Add(this.dshbrdLbl);
+            this.panel2.Controls.Add(this.btnnewappointment);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1537, 97);
+            this.panel2.TabIndex = 73;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox5.Image = global::DAIS.Properties.Resources.services;
+            this.pictureBox5.Location = new System.Drawing.Point(38, 12);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(84, 79);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
+            // doctorPic
+            // 
+            this.doctorPic.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.doctorPic.Image = global::DAIS.Properties.Resources.profile_icon;
+            this.doctorPic.Location = new System.Drawing.Point(1435, 12);
+            this.doctorPic.Name = "doctorPic";
+            this.doctorPic.Size = new System.Drawing.Size(77, 69);
+            this.doctorPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.doctorPic.TabIndex = 7;
+            this.doctorPic.TabStop = false;
+            // 
+            // dshbrdLbl
+            // 
+            this.dshbrdLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dshbrdLbl.AutoSize = true;
+            this.dshbrdLbl.Font = new System.Drawing.Font("Metrophobic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dshbrdLbl.Location = new System.Drawing.Point(193, 22);
+            this.dshbrdLbl.Name = "dshbrdLbl";
+            this.dshbrdLbl.Size = new System.Drawing.Size(290, 50);
+            this.dshbrdLbl.TabIndex = 5;
+            this.dshbrdLbl.Text = "Services Offered";
+            this.dshbrdLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnnewappointment
+            // 
+            this.btnnewappointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnnewappointment.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnnewappointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnnewappointment.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnewappointment.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnnewappointment.Location = new System.Drawing.Point(1163, 26);
+            this.btnnewappointment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnnewappointment.Name = "btnnewappointment";
+            this.btnnewappointment.Size = new System.Drawing.Size(224, 48);
+            this.btnnewappointment.TabIndex = 1;
+            this.btnnewappointment.Text = "+ Add Service";
+            this.btnnewappointment.UseVisualStyleBackColor = false;
             // 
             // Services
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1537, 920);
-            this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.tableLayoutPanel2);
             this.MaximumSize = new System.Drawing.Size(1559, 976);
             this.Name = "Services";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Services_FormClosing);
+            this.Load += new System.EventHandler(this.Services_Load);
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.staffBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptntsBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clndrBtn)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.PictureBox staffBtn;
+        private System.Windows.Forms.PictureBox ptntsBtn;
+        private System.Windows.Forms.PictureBox clndrBtn;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox doctorPic;
+        private System.Windows.Forms.Label dshbrdLbl;
+        private System.Windows.Forms.Button btnnewappointment;
     }
 }

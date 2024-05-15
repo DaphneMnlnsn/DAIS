@@ -21,5 +21,10 @@ namespace DAIS
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void Services_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

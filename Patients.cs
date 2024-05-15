@@ -20,5 +20,10 @@ namespace DAIS
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void Patients_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
