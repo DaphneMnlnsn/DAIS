@@ -47,11 +47,21 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.servicesList3 = new DAIS.ServicesList();
+            this.servicesList4 = new DAIS.ServicesList();
+            this.servicesList5 = new DAIS.ServicesList();
+            this.servicesList6 = new DAIS.ServicesList();
+            this.servicesList7 = new DAIS.ServicesList();
+            this.searchTxtBox = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.staffBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptntsBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clndrBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).BeginInit();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -64,7 +74,8 @@
             this.tableLayoutPanel1.Controls.Add(this.clndrBtn, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.servicesList1, 0, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 97);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 63);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -104,7 +115,7 @@
             // 
             // btnnewappointment
             // 
-            this.btnnewappointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnnewappointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.btnnewappointment.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnnewappointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -195,7 +206,7 @@
             this.ptntsBtn.Image = global::DAIS.Properties.Resources.patients;
             this.ptntsBtn.Location = new System.Drawing.Point(48, 379);
             this.ptntsBtn.Name = "ptntsBtn";
-            this.ptntsBtn.Size = new System.Drawing.Size(66, 74);
+            this.ptntsBtn.Size = new System.Drawing.Size(44, 48);
             this.ptntsBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptntsBtn.TabIndex = 0;
             this.ptntsBtn.TabStop = false;
@@ -253,7 +264,7 @@
             // 
             // Services
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1534, 911);
             this.Controls.Add(this.servicesContainer);
@@ -276,7 +287,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.clndrBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.doctorPic)).EndInit();
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

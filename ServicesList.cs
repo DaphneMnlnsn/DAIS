@@ -14,7 +14,6 @@ namespace DAIS
 {
     public partial class ServicesList : UserControl
     {
-
         public ServicesList()
         {
             InitializeComponent();
@@ -29,6 +28,5 @@ namespace DAIS
             serviceName.Text = service_name;
             servicePrice.Text = service_price;
         }
-        
     }
 }

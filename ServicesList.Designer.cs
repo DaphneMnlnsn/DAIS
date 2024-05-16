@@ -102,7 +102,6 @@
         }
 
         #endregion
-
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label servicePrice;
         private System.Windows.Forms.Label serviceName;

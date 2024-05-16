@@ -71,5 +71,10 @@ namespace DAIS
             stff.Show();
             this.Hide();
         }
+
+        private void servicesList1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
