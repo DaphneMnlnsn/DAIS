@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DAIS
 {
@@ -19,14 +17,24 @@ namespace DAIS
             InitializeComponent();
         }
 
-        private void ServicesList_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
+
         }
 
-        public void setServiceInfo (string service_id, string service_name, string service_price){
-            serviceID.Text = service_id;
-            serviceName.Text = service_name;
-            servicePrice.Text = service_price;
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
